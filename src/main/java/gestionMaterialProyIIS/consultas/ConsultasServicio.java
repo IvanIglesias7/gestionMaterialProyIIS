@@ -5,6 +5,11 @@ import java.util.List;
 import gestionMaterialProyIIS.dao.Alumno;
 import gestionMaterialProyIIS.dao.Portatil;
 
+/**
+ * Interfaz que implementa consultas en base de datos en la clase ConsultasServicioImpl.
+ * @author saigo
+ *
+ */
 public interface ConsultasServicio {
 
 	// Inserta un alumno en la bd

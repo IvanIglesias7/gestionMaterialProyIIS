@@ -6,6 +6,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
+/**
+ * Hace un mapeo de la web, basicamente un archivo de configuracion de la web
+ * @author saigo
+ *
+ */
 
 @Configuration
 @ComponentScan

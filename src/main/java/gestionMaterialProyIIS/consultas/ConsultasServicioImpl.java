@@ -9,6 +9,11 @@ import gestionMaterialProyIIS.dao.AlumnoRepository.AlumnoRepositorio;
 import gestionMaterialProyIIS.dao.Portatil;
 import gestionMaterialProyIIS.dao.PortatilRepository.PortatilRepositorio;
 
+/**
+ * Implementacion del servicio consultas.
+ * @author saigo
+ *
+ */
 public class ConsultasServicioImpl implements ConsultasServicio {
 
 	@Autowired

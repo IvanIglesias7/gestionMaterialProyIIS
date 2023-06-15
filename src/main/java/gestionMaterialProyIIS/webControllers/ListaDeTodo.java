@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -16,6 +17,13 @@ import gestionMaterialProyIIS.dto.PortatilDTO;
 import gestionMaterialProyIIS.dto.ToDTOServicio;
 import gestionMaterialProyIIS.dto.ToDTOServicioImpl;
 
+/**
+ * 
+ * Haremos una seleccion de todos los alumnos y sus respectivos portatiles
+ * @author saigo
+ *
+ */
+@Controller
 public class ListaDeTodo {
 	
 	@Autowired

@@ -18,6 +18,12 @@ import gestionMaterialProyIIS.dto.AlumnoDTO;
 import gestionMaterialProyIIS.dto.ToDAOServicio;
 import gestionMaterialProyIIS.dto.ToDAOServicioImpl;
 
+/**
+ * Controlador de la pagina "AltaAlumno", aqui daremos de alta a un alumno
+ * @author saigo
+ *
+ */
+
 @Controller
 public class AltaAlumno {
 	

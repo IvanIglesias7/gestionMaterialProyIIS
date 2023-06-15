@@ -13,6 +13,13 @@ import gestionMaterialProyIIS.dto.AlumnoDTO;
 import gestionMaterialProyIIS.dto.ToDTOServicio;
 import gestionMaterialProyIIS.dto.ToDTOServicioImpl;
 
+/**
+ * Controlador de la pagina AlumnoPorPortatil. Aqui buscaremos un alumon por el id del portatil.
+ * @author saigo
+ *
+ */
+
+
 @Controller
 public class AlumnoPorPortatil {
 

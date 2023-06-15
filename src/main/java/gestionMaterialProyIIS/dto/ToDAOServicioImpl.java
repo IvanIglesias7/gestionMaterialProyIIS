@@ -3,6 +3,11 @@ package gestionMaterialProyIIS.dto;
 import gestionMaterialProyIIS.dao.Alumno;
 import gestionMaterialProyIIS.dao.Portatil;
 
+/**
+ * Implementacion del servicio ToDAOServicio
+ * @author saigo
+ *
+ */
 public class ToDAOServicioImpl implements ToDAOServicio {
 
 	@Override

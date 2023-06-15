@@ -1,5 +1,8 @@
 package gestionMaterialProyIIS.app;
 
+/**
+ * Se encarga de la configuracion de la aplicacion, asi como de la base de datos, de hibernate y de las transacciones.
+ */
 import java.util.Properties;
 
 import javax.sql.DataSource;

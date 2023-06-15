@@ -13,6 +13,11 @@ import gestionMaterialProyIIS.dto.PortatilDTO;
 import gestionMaterialProyIIS.dto.ToDAOServicio;
 import gestionMaterialProyIIS.dto.ToDAOServicioImpl;
 
+
+/**
+ * Controlador de la pagina, AltaPortatil. Aqui daremos de alta un portatil.
+ */
+
 @Controller
 public class AltaPortatil {
 

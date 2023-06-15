@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * Entidad de la tabla 'gestion_portatiles'
+ * Entidad de la tabla 'gestion_portatiles' de la base de datos 'gestionMaterial'
  */
 @Entity
 @Table(name = "gestion_portatiles", schema = "gestionMaterial")

@@ -17,6 +17,14 @@ import gestionMaterialProyIIS.dto.ToDAOServicioImpl;
 import gestionMaterialProyIIS.dto.ToDTOServicio;
 import gestionMaterialProyIIS.dto.ToDTOServicioImpl;
 
+
+/**
+ * Controlador de la pagina EliminaAlumno. Aqui eliminaremos a un alumno por su id.
+ * @author saigo
+ *
+ */
+
+
 @Controller
 public class EliminaAlumno {
 

@@ -8,6 +8,11 @@ import java.util.stream.Collectors;
 import gestionMaterialProyIIS.dao.Alumno;
 import gestionMaterialProyIIS.dao.Portatil;
 
+/**
+ * Implementacion del servicio ToDTOServicio
+ * @author saigo
+ *
+ */
 public class ToDTOServicioImpl implements ToDTOServicio {
 
 	@Override

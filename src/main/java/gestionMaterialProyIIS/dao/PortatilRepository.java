@@ -1,8 +1,8 @@
 package gestionMaterialProyIIS.dao;
 
-/*
- * Hereda los metodos de la clase CrudRepository
- *
+
+/**
+ * Repositorio de portatil que hereda los metodos de la clase crudRepository
  */
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

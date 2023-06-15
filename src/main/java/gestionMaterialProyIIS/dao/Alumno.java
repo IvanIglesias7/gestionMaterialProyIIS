@@ -10,7 +10,9 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 /**
- * Entidad de la tabla 'gestion_alumno'
+ * 
+ * @author saigo
+ * Entidad alumno que equivale a la tabla gestion_alumnos de la base de datos gestionMaterial.
  */
 
 @Entity

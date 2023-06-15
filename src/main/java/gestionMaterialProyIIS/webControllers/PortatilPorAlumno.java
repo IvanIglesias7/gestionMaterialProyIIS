@@ -13,7 +13,11 @@ import gestionMaterialProyIIS.dao.Portatil;
 import gestionMaterialProyIIS.dto.PortatilDTO;
 import gestionMaterialProyIIS.dto.ToDTOServicio;
 import gestionMaterialProyIIS.dto.ToDTOServicioImpl;
-
+/**
+ * Buscaremos un portatil por el id del alumno
+ * @author saigo
+ *
+ */
 @Controller
 public class PortatilPorAlumno {
 

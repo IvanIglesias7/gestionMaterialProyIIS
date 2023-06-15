@@ -4,6 +4,11 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 import gestionMaterialProyIIS.app.AppConfiguracion;
 
+/**
+ * Configura que clases son la configuracion de la aplicacion y de la web.
+ * @author saigo
+ *
+ */
 public class EnrutadorWeb extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override
