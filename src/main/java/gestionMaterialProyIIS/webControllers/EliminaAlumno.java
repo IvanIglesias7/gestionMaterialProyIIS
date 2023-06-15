@@ -35,7 +35,7 @@ public class EliminaAlumno {
 
 	ToDTOServicio toDTO = new ToDTOServicioImpl();
 
-	@RequestMapping(value = "/redirectBajaAlumno")
+	@RequestMapping(value = "/redirectEliminarAlumno")
 	public ModelAndView gestionSolicitud() {
 
 		try {
@@ -44,7 +44,7 @@ public class EliminaAlumno {
 
 			List<AlumnoDTO> listAlumnoDTO = toDTO.ListAlumnoToDTO(listAlumnoDAO);
 
-			return new ModelAndView("bajaAlumno", "listAlumnos", listAlumnoDTO);
+			return new ModelAndView("eliminarAlumno", "listAlumnos", listAlumnoDTO);
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -54,17 +54,17 @@ public class EliminaAlumno {
 	}
 
 	@RequestMapping(value = "/eliminarAlumno")
-	public ModelAndView procesarFormulario(@RequestParam Integer id, RedirectAttributes ra) {
+	public ModelAndView procesarFormulario(@RequestParam Integer id) {
 
 		try {
 
 			System.out.println(id);
 
 			consulta.eliminarAlumno(id);
-
-			ModelAndView mav = new ModelAndView();
-			mav.setViewName("redirect:/redirectEliminarAlumno");
-			return mav;
+			System.out.println("Alumno con el id: " + id + " eliminado.");
+			ModelAndView model = new ModelAndView();
+			model.setViewName("redirect:/redirectEliminarAlumno");
+			return model;
 
 		} catch (Exception e) {
 
